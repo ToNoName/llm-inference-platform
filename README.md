@@ -4,7 +4,7 @@
 
 ## 架构
 Client → Nginx (:80) → FastAPI Gateway (:8000) → vLLM (:8001) → llama.cpp (:8002)
-![架构图](gateway_drawio.png)
+![架构图](docs/images/gateway_drawio.png)
 
 ## 特性
 - ✅ **OpenAI 兼容**：标准 `/v1/chat/completions` 接口，可直接替换 OpenAI SDK 的 base_url

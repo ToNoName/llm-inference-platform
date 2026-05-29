@@ -1,0 +1,15 @@
+# Python 编译产物
+venv/
+__pycache__/
+*.pyc
+
+# 环境变量 / 私密配置
+.env
+
+# 大模型文件（非常大，不上传 Git）
+*.gguf
+models/
+
+# 编辑器配置
+.vscode/
+.idea/

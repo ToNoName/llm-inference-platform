@@ -1,0 +1,5 @@
+﻿﻿run_id,timestamp,backend,model,quant,gpu,model_size_gb,test_type,tokens_per_second,std_dev,notes
+llamacpp-q4km-1,2026-06-07,2026-06-07,llama.cpp,Qwen2.5-7B-Instruct-Q4_K_M,RTX5060,4.36,pp512,2935.88,58.94,prompt processing compute-bound
+llamacpp-q4km-2,2026-06-07,2026-06-07,llama.cpp,Qwen2.5-7B-Instruct-Q4_K_M,RTX5060,4.36,tg128,77.20,1.51,token generation memory-bound mixed precision q6_K+q4_K
+llamacpp-q80-1,2026-06-07,2026-06-07,llama.cpp,Qwen2.5-7B-Instruct-Q8_0,RTX5060,7.54,pp512,1768.68,47.62,prompt processing compute-bound
+llamacpp-q80-2,2026-06-07,2026-06-07,llama.cpp,Qwen2.5-7B-Instruct-Q8_0,RTX5060,7.54,tg128,45.18,0.41,token generation memory-bound 8GB VRAM limited

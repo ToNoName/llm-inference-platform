@@ -12,4 +12,6 @@ models/
 
 # 编辑器配置
 .vscode/
-.idea/
+
+# 压测数据（本地生成，不入库）
+docs/W4/*.csv
